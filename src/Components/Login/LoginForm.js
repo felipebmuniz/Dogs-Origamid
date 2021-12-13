@@ -23,7 +23,7 @@ const LoginForm = () => {
   }
 
   return (
-    <section className="animeLeft" style={{ padding: '2rem 25%' }}>
+    <section className="animeLeft" /*style={{ padding: '2rem 25%' }}*/>
       <h1 className="title">Login</h1>
       <form className={styles.form} onSubmit={handleSubmit}>
         <Input label="Usuário" type="text" name="username" {...username} />
