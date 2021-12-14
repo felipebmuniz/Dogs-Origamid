@@ -15,15 +15,12 @@ const PhotoComments = (props) => {
   return (
     <>
       <ul ref={commentsSection} className={styles.comments}>
-        {
-          (console.log(comments),
-          comments.map((comment) => (
-            <li key={comment.comment_ID}>
-              <b>{comment.comment_author}: </b>
-              <span>{comment.comment_content}</span>
-            </li>
-          )))
-        }
+        {comments.map((comment) => (
+          <li key={comment.comment_ID}>
+            <b>{comment.comment_author}: </b>
+            <span>{comment.comment_content}</span>
+          </li>
+        ))}
       </ul>
       {login && <PhotoCommentsForm id={props.id} setComments={setComments} />}
     </>
