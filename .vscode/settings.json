@@ -4,7 +4,7 @@
     ".gitignore": true,
     "package.json": true,
     "package-lock.json": true,
-    "public": true,
+    "public": false,
     "yarn-error.log": true,
     "yarn.lock": true
   }
