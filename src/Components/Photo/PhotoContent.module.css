@@ -47,7 +47,7 @@
     height: auto;
     max-height: calc(100vh - 4rem);
     overflow-y: auto;
-    grid-template-columns: minmax(20rem, 33rem);
+    grid-template-columns: minmax(20rem, 30rem);
   }
 
   .img {
